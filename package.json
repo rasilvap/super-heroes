@@ -23,7 +23,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test -- -t 'render-link'",
     "eject": "react-scripts eject",
     "prepare": "husky install",
     "lint": "npx eslint . --fix"
