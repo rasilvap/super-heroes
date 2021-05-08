@@ -4,7 +4,55 @@ body {
 }
 
 .bg-main-image {
-  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
   width: 100%;
+  height: 100vh;
   object-fit: cover;
+}
+
+.box-main {
+  position: absolute;
+  z-index: 2;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.box-text-main {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+
+.box-text-body {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-logo {
+  width: 200px;
+  height: auto;
+  object-fit: contain;
+  margin-bottom: 50px;
+}
+
+.box-logo-body {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
 }
